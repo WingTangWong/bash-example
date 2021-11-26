@@ -11,5 +11,6 @@ echo "--- :evergreen_tree: Build job environment"
 env
 
 echo "--- :package: Perform Ruby bundler install"
+rbenv install 3.0.2
 rbenv local 3.0.2
 bundle install
